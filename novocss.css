@@ -1,0 +1,33 @@
+/* the styles for the HTML elements */
+body, html {
+    height: 100%;
+}
+
+footer {
+    clear: both;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+
+.tituloPaginaEntidade{
+    color: #36393B;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-form-label{
+    color: #36393B;
+}
+
+.campoBusca{
+    width: 500px;
+}
+
+#main-principal{
+    width: 100%;
+    height: 100vh;
+    background: url(img-fundo.jpg) no-repeat center;
+    background-size: cover;
+}
