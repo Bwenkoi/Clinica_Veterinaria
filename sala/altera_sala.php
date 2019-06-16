@@ -1,33 +1,46 @@
 <?php include '../view/header.php'; ?>
 <main>
 
-    <h1>Insira os Novos Dados:</h1>
-        <form action="index.php" method="post" id="generic_form">
-            <input type="hidden" name="action" value="confirma_altera">
-            <input type="hidden" name="num" value="<?php echo $num ?>">
+    <div class="tituloPaginaEntidade col-md-5 col-sm-6">
+        <h1 class="h3">Insira os Novos Dados:</h1>
+    </div>
+    <form class="container-fluid" action="index.php" method="post">
+        <input type="hidden" name="action" value="confirma_altera">
+        <input type="hidden" name="num" value="<?php echo $num ?>">
 
-            <label>Equipamentos:</label>
-            <input type="text" name="equip" value="<?php echo $equip ?>"/>
-            <br>
+        <div class="form-group row">
+            <label for="campoEquipamentosSala" class="col-md-1 col-form-label">Equipamentos</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoEquipamentosSala" name="equip" value="<?php echo $equip ?>">
+            </div>
+        </div>
 
-            <label>Descrição:</label>
-            <input type="text" name="desc" value="<?php echo $desc ?>"/>
-            <br>
+        <div class="form-group row">
+            <label for="campoDescricaoSala" class="col-md-1 col-form-label">Descrição</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoDescricaoSala" name="desc" value="<?php echo $desc ?>">
+            </div>
+        </div>
 
-           <label>Disponível:</label>
-            <select name="disp">
-                <option>
-                    Disponível
-                </option>
-                <option>
-                    Indisponível
-                </option>
-            </select>
-            <br>
+        <div class="form-group row">
+            <label for="campoDispSala" class="col-md-1 col-form-label">Disponibilidade</label>
+            <div class="col-md-4 col-sm-6">
+                <select class="form-control" id="campoDispSala" name="disp">
+                    <option <?php echo $disp == 1 ? ' selected="selected"' : '' ?>>
+                        Disponível
+                    </option>
+                    <option <?php echo $disp == 0 ? ' selected="selected"' : '' ?>>
+                        Indisponível
+                    </option>
+                </select>
+            </div>
+        </div>
 
-            <input type="submit" value="Confirma" />
-            <br>
-        </form>
-    
+        <div class="text-right col-md-5 col-sm-6">
+            <button type="submit" class="btn col-md-4 col-sm-6"
+                    style="background-color: #218380; color: white">Confirma</button>
+        </div>
+    </form>
+
 </main>
 <?php include '../view/footer.php'; ?>

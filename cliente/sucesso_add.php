@@ -1,38 +1,26 @@
 <?php include '../view/header.php'; ?>
 <main>
-    
-    <aside>
-    <h1>Controle de Clientes</h1>
-    <ul>
-        <li>
-            <a href="index.php?action=abre_form">Cadastrar Clientes</a>
-        </li>
-        <li>
-            <a href="index.php?action=lista_cliente">Listar Clientes</a>
-        </li>
-    </ul>
-    </aside>
-    
-    <section>
-    <h1>Cliente Cadastrado com Sucesso!</h1>
-    <ul>
-        <li>
+
+    <div class="tituloPaginaEntidade col-md-5 col-sm-6">
+        <h1 class="h3">Cliente Cadastrado com Sucesso!</h1>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">
             Nome: <?php echo $nome ?>
         </li>
-        <li>
+        <li class="list-group-item">
             CPF: <?php echo $cpf ?>
         </li>
-        <li>
+        <li class="list-group-item">
             Telefone: <?php echo $telefone ?>
         </li>
-        <li>
+        <li class="list-group-item">
             Endereço: <?php echo $endereco ?>
         </li>
-        <li>
+        <li class="list-group-item">
             Email: <?php echo $email ?>
         </li>
     </ul>
-    </section>
-    
+
 </main>
 <?php include '../view/footer.php'; ?>

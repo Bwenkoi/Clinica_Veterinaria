@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dde19907-c4d2-4b44-9d0a-b1aeda374ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="dde19907-c4d2-4b44-9d0a-b1aeda374ff7" name="Default Changelist" comment="Pequena alteração">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animal/add_animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/add_animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animal/altera_animais.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/altera_animais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animal/lista_animais.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/lista_animais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animal/sucesso_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/sucesso_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/add_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/add_cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/altera_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/altera_cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/lista_clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/lista_clientes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/sucesso_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/sucesso_add.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -29,6 +37,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -59,6 +68,7 @@
         <option value="$PROJECT_DIR$/estoque/sucesso_sell.php" />
         <option value="$PROJECT_DIR$/estoque/index.php" />
         <option value="$PROJECT_DIR$/model/estoque_db.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -82,6 +92,11 @@
               <item name="Clinica_Veterinaria" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clinica_Veterinaria" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Clinica_Veterinaria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clinica_Veterinaria" type="462c0819:PsiDirectoryNode" />
+              <item name="sala" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -92,11 +107,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sala" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Clinica_Veterinaria\animal" />
+      <recent name="C:\xampp\htdocs\Clinica_Veterinaria\cliente" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\estoque" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\model" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\medicamento" />
@@ -127,16 +144,33 @@
       <workItem from="1560555614671" duration="713000" />
       <workItem from="1560605224239" duration="20072000" />
       <workItem from="1560641545659" duration="3880000" />
+      <workItem from="1560700893373" duration="578000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionando a Documentação">
+      <created>1560648038704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560648038704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pequena alteração">
+      <created>1560648132118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560648132118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25270000" />
+    <option name="totallyTimeSpent" value="26325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,10 +195,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando a Documentação" />
+    <MESSAGE value="Pequena alteração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pequena alteração" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cliente/add_cliente.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-87" />
@@ -310,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animal/add_animal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animal/altera_animais.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -406,10 +435,20 @@
     <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/cliente/add_cliente.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animal/add_animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>

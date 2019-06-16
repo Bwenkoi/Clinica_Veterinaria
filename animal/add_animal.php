@@ -1,49 +1,63 @@
 <?php include '../view/header.php'; ?>
 <main>
+    <div class="tituloPaginaEntidade col-md-5 col-sm-6">
+        <h1 class="h3">Insira os Dados do Animal:</h1>
+    </div>
+    <form class="container-fluid" action="index.php" method="post">
+        <input type="hidden" name="action" value="add_confirm">
 
-        <h1>Insira os Dados do Animal:</h1>
-        <form action="index.php" method="post" id="generic_form">
-            <input type="hidden" name="action" value="add_confirm">
+        <div class="form-group row">
+            <label for="campoNomeAnimal" class="col-md-1 col-form-label">Nome</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoNomeAnimal" name="nome">
+            </div>
+        </div>
 
-            <label>Nome:</label>
-            <input type="text" name="nome" />
-            <br>
+        <div class="form-group row">
+            <label for="campoEspecieAnimal" class="col-md-1 col-form-label">Espécie</label>
+            <div class="col-md-4 col-sm-6">
+                <select class="form-control" id="campoEspecieAnimal" name="especie">
+                    <option>
+                        Cachorro
+                    </option>
+                    <option>
+                        Gato
+                    </option>
+                    <option>
+                        Pássaro
+                    </option>
+                    <option>
+                        Outro
+                    </option>
+                </select>
+            </div>
+        </div>
 
-            <label>Espécie:</label>
-            <select name="especie">
-                <option>
-                    Cachorro
-                </option>
-                <option>
-                    Gato
-                </option>
-                <option>
-                    Pássaro
-                </option>
-                <option>
-                    Outro
-                </option>
-            </select>
-            <br>
+        <div class="form-group row">
+            <label for="campoRacaAnimal" class="col-md-1 col-form-label">Raça</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoRacaAnimal" name="raca">
+            </div>
+        </div>
 
-            <label>Raça:</label>
-            <input type="text" name="raca" />
-            <br>
+        <div class="form-group row">
+            <label for="campoDonoAnimal" class="col-md-1 col-form-label">Dono</label>
+            <div class="col-md-4 col-sm-6">
+                <select class="form-control" id="campoDonoAnimal" name="dono">
+                    <?php foreach ($lista as $cliente) { ?>
+                        <option>
+                            <?php echo $cliente['nome']; ?>
+                        </option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
 
-            <label>Dono:</label>
-            <select name="dono">
-                <?php foreach ($lista as $cliente){?>
-                <option>
-                    <?php echo $cliente['nome'];?>
-                </option>
-                <?php } ?>
-            </select>
-            <br>
-            
-            <label>&nbsp;</label>
-            <input type="submit" value="Confirma" />
-            <br>
-        </form>
+        <div class="text-right col-md-5 col-sm-6">
+            <button type="submit" class="btn col-md-4 col-sm-6"
+                    style="background-color: #218380; color: white">Confirmar</button>
+        </div>
+        <br>
+    </form>
 </main>
-
 <?php include '../view/footer.php'; ?>

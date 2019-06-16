@@ -1,51 +1,58 @@
 <?php include '../view/header.php'; ?>
 <main>
-    
-    <aside>
-        <h1>Controle de Clientes</h1>
-        <ul>
-            <li>
-                <a href="index.php?action=abre_form">Cadastrar Clientes</a>
-            </li>
-            <li>
-                <a href="index.php?action=lista_cliente">Listar Clientes</a>
-            </li>
-        </ul>
-    </aside>
-    
-    <section>
-        <h1>Insira os Dados do Cliente:</h1>
-        <form action="index.php" method="post" id="generic_form">
-            <input type="hidden" name="action" value="add_confirm">
 
-            <label>Nome:</label>
-            <input type="text" name="nome" />
-            <br>
+    <div class="tituloPaginaEntidade col-md-5 col-sm-6">
+        <h1 class="h3">Insira os Dados do Cliente:</h1>
+    </div>
+    <form class="container-fluid" action="index.php" method="post">
+        <input type="hidden" name="action" value="add_confirm">
 
-            <label>CPF:</label>
-            <input type="text" name="cpf" />
-            <br>
+        <div class="form-group row">
+            <label for="campoNomeCliente" class="col-md-1 col-form-label">Nome</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoNomeCliente" name="nome">
+            </div>
+        </div>
 
-            <label>Telefone:</label>
-            <input type="text" name="tel" />
-            <br>
+        <div class="form-group row">
+            <label for="campoCpfCliente" class="col-md-1 col-form-label">CPF</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoCpfCliente" name="cpf">
+            </div>
+        </div>
 
-            <label>Endereço:</label>
-            <input type="text" name="ende" />
-            <br>
+        <div class="form-group row">
+            <label for="campoTelefoneCliente" class="col-md-1 col-form-label">Telefone</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoTelefoneCliente" name="tel">
+            </div>
+        </div>
 
-            <label>Email:</label>
-            <input type="text" name="email" />
-            <br>
-            
-            <label>Senha:</label>
-            <input type="password" name="pass" />
-            <br>
-            
-            <label>&nbsp;</label>
-            <input type="submit" value="Confirma" />
-            <br>
-        </form>
-    </section>
+        <div class="form-group row">
+            <label for="campoEnderecoCliente" class="col-md-1 col-form-label">Endereço</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="text" class="form-control" id="campoEnderecoCliente" name="ende">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="campoEmailCliente" class="col-md-1 col-form-label">Email</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="email" class="form-control" id="campoEmailCliente" name="email">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="campoSenhaCliente" class="col-md-1 col-form-label">Senha</label>
+            <div class="col-md-4 col-sm-6">
+                <input type="password" class="form-control" id="campoSenhaCliente" name="pass">
+            </div>
+        </div>
+
+        <div class="text-right col-md-5 col-sm-6">
+            <button type="submit" class="btn col-md-4 col-sm-6"
+                    style="background-color: #218380; color: white">Confirmar</button>
+        </div>
+    </form>
 </main>
 <?php include '../view/footer.php'; ?>
