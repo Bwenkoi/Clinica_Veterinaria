@@ -21,7 +21,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <!-- Funcionário -->
-                        <div class="nav-item dropdown">
+                            <div class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownFuncionarios" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Funcionários
                             </a>

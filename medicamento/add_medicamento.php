@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="campoPrecoMedicamento" class="col-md-1 col-form-label">Preço:</label>
+            <label for="campoPrecoMedicamento" class="col-md-1 col-form-label">Preço</label>
             <div class="col-md-4 col-sm-6">
                 <input type="text" class="form-control" id="campoPrecoMedicamento" name="preco">
             </div>

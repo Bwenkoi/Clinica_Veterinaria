@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="campoValoroEstoque" class="col-md-1 col-form-label">Valor:</label>
+            <label for="campoValoroEstoque" class="col-md-1 col-form-label">Valor(Compra):</label>
             <div class="col-md-4 col-sm-6">
                 <input type="text" class="form-control" id="campoValorEstoque" name="precoC">
             </div>

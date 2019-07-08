@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dde19907-c4d2-4b44-9d0a-b1aeda374ff7" name="Default Changelist" comment="Pequena alteração">
+    <list default="true" id="dde19907-c4d2-4b44-9d0a-b1aeda374ff7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal/add_animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/add_animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal/altera_animais.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/altera_animais.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal/lista_animais.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/lista_animais.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal/sucesso_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/animal/sucesso_add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/add_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/add_cliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/altera_cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/altera_cliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/lista_clientes.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/lista_clientes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente/sucesso_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/sucesso_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estoque/add_medicamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/estoque/add_medicamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicamento/add_medicamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/medicamento/add_medicamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/headerT.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/headerT.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/view/headerT.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="346">
+              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -43,14 +38,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medicamento/add_medicamento.php" />
         <option value="$PROJECT_DIR$/medicamento/sucesso_add.php" />
         <option value="$PROJECT_DIR$/medicamento/altera_medicamento.php" />
         <option value="$PROJECT_DIR$/medicamento/lista_medicamento.php" />
         <option value="$PROJECT_DIR$/estoque/sucesso_add.php" />
-        <option value="$PROJECT_DIR$/view/headerT.php" />
         <option value="$PROJECT_DIR$/view/header.php" />
-        <option value="$PROJECT_DIR$/estoque/add_medicamento.php" />
         <option value="$PROJECT_DIR$/novocss.css" />
         <option value="$PROJECT_DIR$/estoque/lista_estoque.php" />
         <option value="$PROJECT_DIR$/estoque/info_vendas.php" />
@@ -69,6 +61,9 @@
         <option value="$PROJECT_DIR$/estoque/index.php" />
         <option value="$PROJECT_DIR$/model/estoque_db.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/medicamento/add_medicamento.php" />
+        <option value="$PROJECT_DIR$/estoque/add_medicamento.php" />
+        <option value="$PROJECT_DIR$/view/headerT.php" />
       </list>
     </option>
   </component>
@@ -85,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,28 +91,27 @@
             <path>
               <item name="Clinica_Veterinaria" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clinica_Veterinaria" type="462c0819:PsiDirectoryNode" />
-              <item name="sala" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Clinica_Veterinaria\sala" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria\animal" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria\cliente" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\estoque" />
       <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\model" />
-      <recent name="C:\xampp\htdocs\Clinica_Veterinaria-master\medicamento" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,7 +139,14 @@
       <workItem from="1560555614671" duration="713000" />
       <workItem from="1560605224239" duration="20072000" />
       <workItem from="1560641545659" duration="3880000" />
-      <workItem from="1560700893373" duration="578000" />
+      <workItem from="1560700893373" duration="1347000" />
+      <workItem from="1560737387224" duration="323000" />
+      <workItem from="1560738376462" duration="641000" />
+      <workItem from="1560773824820" duration="2936000" />
+      <workItem from="1560815681121" duration="630000" />
+      <workItem from="1560875511578" duration="1284000" />
+      <workItem from="1561079786023" duration="899000" />
+      <workItem from="1561128424254" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando a Documentação">
       <created>1560648038704</created>
@@ -160,17 +162,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560648132118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correção das intefaces">
+      <created>1560701628596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560701628597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26325000" />
+    <option name="totallyTimeSpent" value="34213000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -181,11 +190,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -198,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando a Documentação" />
     <MESSAGE value="Pequena alteração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pequena alteração" />
+    <MESSAGE value="Correção das intefaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção das intefaces" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.css">
@@ -222,13 +232,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/funcionario/controla_funcionario.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medicamento/add_medicamento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medicamento/sucesso_add.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -276,13 +279,6 @@
         <state relative-caret-position="-357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/headerT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="79" column="95" lean-forward="true" selection-start-line="79" selection-start-column="95" selection-end-line="79" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -301,13 +297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estoque/add_medicamento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="59" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -377,13 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sala/add_sala.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sala/controla_sala.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -445,10 +427,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sala/add_sala.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medicamento/add_medicamento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estoque/add_medicamento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/headerT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
